@@ -1,0 +1,15 @@
+{
+  "name": "elearning-lms-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Hệ thống Quản lý Học tập Trực tuyến (E-Learning LMS) — Monorepo",
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "dev:backend": "npm run dev --workspace=backend",
+    "dev:frontend": "npm run dev --workspace=frontend",
+    "dev": "npm run dev:backend & npm run dev:frontend"
+  }
+}

@@ -37,7 +37,7 @@ npm install
 npm run dev
 ```
 
-API mặc định: `http://localhost:5001` (tránh xung đột với **AirPlay Receiver** của macOS thường chiếm cổng **5000** — `ControlCenter`. Muốn dùng lại 5000: *Cài đặt hệ thống → Chung → AirDrop & Handoff → AirPlay Receiver* → tắt.)
+API mặc định: `http://localhost:5001` 
 
 ### Frontend
 
